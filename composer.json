@@ -1,5 +1,5 @@
 {
-    "name": "dong/http-codes",
+     "name": "Dongzongao/http-codes",
      "type": "library",
      "description": "HttpCodes for PHP7.4|PHP 8.0 ",
      "keywords": ["HttpCodes","Codes"],
