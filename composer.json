@@ -1,5 +1,10 @@
 {
     "name": "dong/http-codes",
+     "type": "library",
+     "description": "HttpCodes for PHP7.4|PHP 8.0 ",
+     "keywords": ["HttpCodes","Codes"],
+     "homepage": "https://github.com/dongzongao",
+     "license": "MIT",
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
