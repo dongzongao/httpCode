@@ -1,5 +1,5 @@
 <?php
-namespace Dong\HttpCodes;
+namespace Dong;
 
 class HttpCodes
 {

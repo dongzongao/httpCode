@@ -13,7 +13,7 @@
 The codes are accessible as `public static` properties on the HttpCodes class
 
 ```php
-use Dong\HttpCodes;
+use Dong;
 
 echo HttpCodes::HTTP_OK; // 200
 ```
