@@ -12,6 +12,10 @@
 
 The codes are accessible as `public static` properties on the HttpCodes class
 
+```composer
+composer require dongzongao/http-codes
+```
+
 ```php
 use Dong;
 
