@@ -1,0 +1,23 @@
+{
+    "name": "dong/http-codes",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "向往",
+            "email": "2453611300@qq.com"
+        }
+    ],
+    "require": {},
+	 "autoload": {
+        "psr-4": {
+            "Dong\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        "Dong\\HttpCodes\\Tests\\": "test/"
+       }
+    }
+}
