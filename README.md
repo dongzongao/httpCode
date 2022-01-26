@@ -1,33 +1,34 @@
 # http-codes
 
 # Table of Contents
+
 * [Installation](#installation)
 * [Usage](#usage)
 * [Optional: Laravel alias](#optional-laravel-alias)
 * [Full reference](#full-reference)
 * [License](#license)
 
-# Installation
-Composer
-```
-
-```
-
 # Usage
+
 The codes are accessible as `public static` properties on the HttpCodes class
+
 ```php
-use Kayex\HttpCodes;
+use Dong\HttpCodes;
 
 echo HttpCodes::HTTP_OK; // 200
 ```
 
 # Optional: Laravel alias
-Laravel users may want to set up an alias for quick access by adding the following to the alias array in `app/config/app.php`:
+
+Laravel users may want to set up an alias for quick access by adding the following to the alias array
+in `app/config/app.php`:
+
 ```php
-'HttpCodes'         => 'Kayex\HttpCodes',
+'HttpCodes'         => 'Dong\HttpCodes',
 ```
 
 The codes can then be used like this:
+
 ```php
 use HttpCodes;
 
@@ -35,15 +36,18 @@ echo HttpCodes::HTTP_OK; // 200
 ```
 
 # Full reference
+
 These are all the available status codes and the names they are accessible under.
 
 ## 1xx - Informational
+
 | Property                   | Code |
 |:---------------------------|----: |
 | `HTTP_CONTINUE`            | 100  |
 | `HTTP_SWITCHING_PROTOCOLS` | 101  |
 
 ## 2xx - Successful
+
 | Property                           | Code |
 |:-----------------------------------|-----:|
 |`HTTP_OK`                           | 200  |
@@ -55,6 +59,7 @@ These are all the available status codes and the names they are accessible under
 |`HTTP_PARTIAL_CONTENT`              | 206  |
 
 ## 3xx - Redirect
+
 | Property                           | Code |
 |:-----------------------------------|-----:|
 |`HTTP_MULTIPLE_CHOICES` | 300|
@@ -66,8 +71,8 @@ These are all the available status codes and the names they are accessible under
 |`HTTP_UNUSED`| 306|
 |`HTTP_TEMPORARY_REDIRECT` | 307|
 
-
 ## 4xx - Client Error
+
 | Property                           | Code |
 |:-----------------------------------|-----:|
 |`HTTP_BAD_REQUEST` | 400|
@@ -89,8 +94,8 @@ These are all the available status codes and the names they are accessible under
 |`HTTP_REQUESTED_RANGE_NOT_SATISFIABLE` | 416|
 |`HTTP_EXPECTATION_FAILED` | 417|
 
-
 ## 5xx - Server Error
+
 | Property                           | Code |
 |:-----------------------------------|-----:|
 |`HTTP_INTERNAL_SERVER_ERROR` | 500|
@@ -101,5 +106,7 @@ These are all the available status codes and the names they are accessible under
 |`HTTP_VERSION_NOT_SUPPORTED` | 505|
 
 # License
+
 MIT
+
 # httpCode

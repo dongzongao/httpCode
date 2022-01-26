@@ -60,7 +60,7 @@ class HttpCodes
      * @param $code
      * @return bool
      */
-    public static function isSuccessful($code)
+    public static function isSuccessful($code): bool
     {
         switch($code) {
             case self::HTTP_OK:
